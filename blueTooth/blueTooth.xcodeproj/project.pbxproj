@@ -14,6 +14,7 @@
 		28BBDAC81BD4E679009543B5 /* blueTooth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28BBDAC61BD4E679009543B5 /* blueTooth.xcdatamodeld */; };
 		28BBDACA1BD4E679009543B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28BBDAC91BD4E679009543B5 /* Assets.xcassets */; };
 		28BBDACD1BD4E679009543B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28BBDACB1BD4E679009543B5 /* LaunchScreen.storyboard */; };
+		28C438E91C35312800571494 /* InfoString.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28C438E81C35312800571494 /* InfoString.strings */; };
 		E8E906E22778480A193D6747 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E7240B04FDF0952735A6563 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,11 @@
 		28BBDAC91BD4E679009543B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28BBDACC1BD4E679009543B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28BBDACE1BD4E679009543B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28C438E21C352A6900571494 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		28C438E31C352A6900571494 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		28C438E51C352D2900571494 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		28C438E71C352ED400571494 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		28C438E81C35312800571494 /* InfoString.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoString.strings; sourceTree = "<group>"; };
 		3B6D0407A8C17AC3D9DFABEB /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		5E7240B04FDF0952735A6563 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -92,6 +98,7 @@
 		28BBDABA1BD4E679009543B5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				28C438E81C35312800571494 /* InfoString.strings */,
 				28BBDABB1BD4E679009543B5 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -167,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28BBDACD1BD4E679009543B5 /* LaunchScreen.storyboard in Resources */,
+				28C438E91C35312800571494 /* InfoString.strings in Resources */,
 				28BBDACA1BD4E679009543B5 /* Assets.xcassets in Resources */,
 				28BBDAC51BD4E679009543B5 /* Main.storyboard in Resources */,
 			);
@@ -241,6 +249,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				28BBDAC41BD4E679009543B5 /* Base */,
+				28C438E21C352A6900571494 /* zh-Hans */,
+				28C438E71C352ED400571494 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -249,6 +259,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				28BBDACC1BD4E679009543B5 /* Base */,
+				28C438E31C352A6900571494 /* zh-Hans */,
+				28C438E51C352D2900571494 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
