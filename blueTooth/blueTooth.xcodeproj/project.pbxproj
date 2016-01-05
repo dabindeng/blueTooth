@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		283C2E941C3BBF9500A6F949 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283C2E921C3BBF9500A6F949 /* HomeViewController.m */; };
+		283C2E951C3BBF9500A6F949 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 283C2E931C3BBF9500A6F949 /* HomeViewController.xib */; };
 		28BBDABC1BD4E679009543B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BBDABB1BD4E679009543B5 /* main.m */; };
 		28BBDABF1BD4E679009543B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BBDABE1BD4E679009543B5 /* AppDelegate.m */; };
 		28BBDAC21BD4E679009543B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BBDAC11BD4E679009543B5 /* ViewController.m */; };
@@ -20,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		128ADDD4EE66859740EE76B9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		283C2E911C3BBF9500A6F949 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		283C2E921C3BBF9500A6F949 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		283C2E931C3BBF9500A6F949 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		28BBDAB71BD4E679009543B5 /* blueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28BBDABB1BD4E679009543B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28BBDABD1BD4E679009543B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,6 +96,9 @@
 				28BBDACE1BD4E679009543B5 /* Info.plist */,
 				28BBDAC61BD4E679009543B5 /* blueTooth.xcdatamodeld */,
 				28BBDABA1BD4E679009543B5 /* Supporting Files */,
+				283C2E911C3BBF9500A6F949 /* HomeViewController.h */,
+				283C2E921C3BBF9500A6F949 /* HomeViewController.m */,
+				283C2E931C3BBF9500A6F949 /* HomeViewController.xib */,
 			);
 			path = blueTooth;
 			sourceTree = "<group>";
@@ -147,6 +155,7 @@
 				TargetAttributes = {
 					28BBDAB61BD4E679009543B5 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = MCD2K9S9H7;
 					};
 				};
 			};
@@ -175,6 +184,7 @@
 			files = (
 				28BBDACD1BD4E679009543B5 /* LaunchScreen.storyboard in Resources */,
 				28C438E91C35312800571494 /* InfoString.strings in Resources */,
+				283C2E951C3BBF9500A6F949 /* HomeViewController.xib in Resources */,
 				28BBDACA1BD4E679009543B5 /* Assets.xcassets in Resources */,
 				28BBDAC51BD4E679009543B5 /* Main.storyboard in Resources */,
 			);
@@ -238,6 +248,7 @@
 				28BBDAC81BD4E679009543B5 /* blueTooth.xcdatamodeld in Sources */,
 				28BBDAC21BD4E679009543B5 /* ViewController.m in Sources */,
 				28BBDABF1BD4E679009543B5 /* AppDelegate.m in Sources */,
+				283C2E941C3BBF9500A6F949 /* HomeViewController.m in Sources */,
 				28BBDABC1BD4E679009543B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -341,7 +352,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -353,9 +364,10 @@
 			baseConfigurationReference = 3B6D0407A8C17AC3D9DFABEB /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = blueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ep.blueTooth.blueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ep.epweike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -365,9 +377,10 @@
 			baseConfigurationReference = 128ADDD4EE66859740EE76B9 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = blueTooth/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ep.blueTooth.blueTooth;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ep.epweike;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
